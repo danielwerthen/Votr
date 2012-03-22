@@ -1,4 +1,4 @@
 Make sure that Node + Git is installed
-Clone the relevant repository
+Clone the relevant repository (https://github.com/danielwerthen/Votr)
 run npm install in repository directory (to install the dependencies listed in package.json)
 run node server.js to start server locally
