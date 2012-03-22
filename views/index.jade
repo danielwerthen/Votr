@@ -1,0 +1,16 @@
+h1 Ask and you shall be answered!
+.well
+	form(action='/question', method='post')
+		fieldset
+			.control-group
+				label.control-label(for='question') Question 
+				.controls
+					input.input-xlarge#question(type='text', name='question', placeholder='Make it good!')
+			.control-group
+				label.control-label(for='yesno') Yes/No?
+					label.checkbox
+						input#yesno(type='checkbox', name='yesno')
+						= 'If not check, users will be allowed to answer with full-text'
+			.form-actions
+				button.btn.btn-primary(type='submit') Ask already
+
